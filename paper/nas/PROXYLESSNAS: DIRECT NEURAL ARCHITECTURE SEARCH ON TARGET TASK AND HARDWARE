@@ -18,4 +18,6 @@
   3除了用gradient之外，用RL去优化上面提到的binarize gate和latency
   
   实验：
-  tobe update
+  1实验验证了在GPU、CPU、moblie phone上对应搜到的网络架构不适用于其它设备，说明了针对不同的部署环境搜索对应的架构的必要性
+  2在imagenet上作者分别在gpu、mobilephone上验证了性能优于stoa，AmoebaNet-A 和
+mnasnet，并且latency相应更低
