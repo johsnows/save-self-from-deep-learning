@@ -1,4 +1,5 @@
   2019ICLR的一篇文章，来自mit hansong 团队。
+  
   motivation:
   1之前的nas在小数据集cifar搜索，然后再通过堆叠更多的相同cell的形式迁移到大数据imagenet上测试效果，不能保证最优
   2one-shot的搜索方式内存消耗较大，每次需要计算并保存所有候选操作
