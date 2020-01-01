@@ -11,7 +11,7 @@
   计算以下更新梯度就和darts的方法没有区别了，于是作者采样了两条path出来跟新相当于时间换空间了。
   
   2同时作者将latency作为优化目标加入到loss里，由于latency是不可导的，作者将block i的lantency的期望定义为：
-  
+  ![2](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/proxyless%20nas/微信图片_20200101175656.png)
   
   F(Oi,j)就是Oi,j的预期latency，E[lantencyi]的梯度就是： ∂(E[latency i]) / ∂(pi,j) = F(oi,j). 
   
