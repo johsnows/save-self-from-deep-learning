@@ -7,7 +7,7 @@ motivation：
 
 Innovation:
 1在训练supenet的时候随机采样网络出来进行训练跟新，保证每个网络被均匀的优化
-2提出了一个network estimator，用以选取出loss较低的网络：
+2提出了一个network estimator，用以选取出loss较低的网络：   
 ![1](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/1.png)
 ![2](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/2.png)
 ![3](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/3.png)
