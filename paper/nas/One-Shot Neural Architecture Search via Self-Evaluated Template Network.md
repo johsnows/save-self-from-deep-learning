@@ -10,5 +10,5 @@ Innovation:
 2提出了一个network estimator，用以选取出loss较低的网络：   
 ![1](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/1.png)
 ![2](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/2.png)
-![3](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/3.png)
+![3](https://github.com/johsnows/save-self-from-deep-learning/blob/master/images/setn/3.png)  
 其实就是给每条边的操作选择和每个节点输入选择加入权重α然后softmax训练一下权重α，最后根据这个概率分布采样出来的网络就会相对loss低一些
